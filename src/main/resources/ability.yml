@@ -1,0 +1,295 @@
+Abilities:
+  AntiBuildStick:
+    Name: '&4&lAntiBuildStick'
+    Lore:
+      - '&7Hit someone 3 times in a row to disable them from'
+      - '&7building/placing and interacting with blocks for 15 seconds.'
+    Material: "STICK"
+    Take-Item: true
+    Data: 0
+    Glow: true
+  Br0Invis:
+    Name: '&5&lBr0 Invis'
+    Lore:
+      - '&7Right click this item to become fully'
+      - '&7invisible while wearing armor.'
+    Material: "INK_SACK"
+    Take-Item: true
+    Data: 0
+    Glow: true
+  ComboAbility:
+    Name: '&4&lCombo Ability'
+    Lore:
+      - '&7Hit a player with this to put them into combo mode'
+    Material: "RAW_FISH"
+    Take-Item: true
+    Data: 0
+    Glow: true
+  GuardianAngel:
+    Name: '&5&lGuardian Angel'
+    Lore:
+      - '&7Right-Click this item heal yourself'
+      - '&7if you ever go below 2 hearts.'
+    Material: "WATCH"
+    Take-Item: true
+    Data: 0
+    Glow: true
+  LastChance:
+    Name: '&9&lLastChance'
+    Lore:
+      - '&7Right click this to reset your'
+      - '&7enderpearl cooldown.'
+    Material: "FEATHER"
+    Take-Item: true
+    Data: 0
+    Glow: true
+  Pocketbard:
+    Name: '&b&lPocket Bard'
+    Lore:
+      - '&7Right click this to open the'
+      - '&7the pocketbard selection.'
+    Material: "INK_SACK"
+    Take-Item: true
+    Data: 14
+    Glow: true
+  PoisonBow:
+    Name: '&aPoison Bow'
+    Lore:
+      - '&7Shoot someone with this bow and'
+      - '&7they will receive poison for 5 seconds.'
+    Material: "BOW"
+    Take-Item: true
+    Data: 0
+    Glow: true
+  SageWall:
+    Name: '&2&lSageWall'
+    Lore:
+      - '&7Throw this item to spawn a 3x3 wall where it lands'
+    Material: "EGG"
+    Take-Item: true
+    Data: 0
+    Glow: true
+  Switcher:
+    Name: '&a&lSwitcher'
+    Lore:
+      - '&7Throw this item at a player to switch'
+      - '&7positions with them.'
+    Material: "SNOW_BALL"
+    Take-Item: true
+    Data: 0
+    Glow: true
+  TimeWarp:
+    Name: '&4Time Warp'
+    Lore:
+      - '&7Right Click this to be teleported'
+      - '&7to your last pearl location.'
+    Material: "FEATHER"
+    Take-Item: true
+    Data: 0
+    Glow: true
+  TPBow:
+    Name: '&cTP Bow'
+    Lore:
+      - '&7Shoot someone with this bow and'
+      - '&7teleport to them after 3 seconds.'
+    Material: "BOW"
+    Take-Item: true
+    Data: 0
+    Glow: true
+
+Ability-Settings:
+  Glowing:
+    Enchant: "DURABILITY"
+    Level: 10
+  Partner:
+    Cooldown-Time: 10
+    Display: '&4&lPartner Item'
+  AntiBuildStick:
+    Cooldown-Time: 240
+    Anti-Build-Time: 15
+    Max-Hits: 3
+  Br0Invis:
+    Too-Late-Message: true
+    Invis-Delay-Timer: 300
+    Cooldown-Time: 120
+  ComboAbility:
+    Combo-Time: 5 # seconds
+    Cooldown-Time: 120
+  LastChance:
+    Cooldown-Time: 120
+  GuardianAngel:
+    Too-Late-Message: true
+    Revive-Delay-Timer: 15
+    Revive-Hearts: 3
+    Cooldown-Time: 120
+  Pocketbard:
+    Cooldown-Time: 120
+  PoisonBow:
+    Cooldown-Time: 120
+    Poison:
+      Time: 5 # seconds
+      Power: 1
+  SageWall:
+    Cooldown-Time: 120
+  Switcher:
+    Out-Of-Range-Refund: false
+    Hit-Teammate-Refund: true
+    Out-Of-Range-Message: true
+    Cooldown-Time: 30
+  TimeWarp:
+    WarmUp-Time: 3 # seconds
+    Cooldown-Time: 2
+  TPBow:
+    Warmup-Time: 3 # seconds
+    Cooldown-Time: 2
+Messages:
+  Cooldown-Message:
+    - '&cYou still have a %ability% &ccooldown for &l%time%&c.'
+  AntiBuildStick:
+    Cant-Interact-Message:
+      Enabled: true
+      Message:
+        - '&cYou are still under antibuild effect for &c&l%time%&c.'
+    Been-Hit-Message:
+      Enabled: true
+      Message:
+        - ' '
+        - '&cYou have been hit with a &4AntiBuildStick&c.'
+        - ' '
+    Hit-Someone-Message:
+      Enabled: true
+      Message:
+        - ' '
+        - '&aSuccessfully used the &4AntiBuildStick&a.'
+        - '&aYou are now on cooldown for &4240s&a.'
+        - ' '
+  Br0Invis:
+    Been-Hit-Message:
+      Message:
+        - '&cYour bro invis has been removed because you were hit.'
+    Used-Message:
+      - '&aSuccessfully used the &4Bro Invis&a.'
+  ComboAbility:
+    Used-Message:
+      - '&eYou have just hit &4%player%&e with a combo ability'
+    Been-Hit-Message:
+      - '&eYou have just been hit with a combo ability! Watch your hearts!'
+  GuardianAngel:
+    Activated-Message:
+      - '&aGuardian angel has activated.'
+    Used-Message:
+      - ' '
+      - '&aSuccessfully used the &4Guardian Angel&a.'
+      - '&aYou are now on cooldown for &4120s&a.'
+      - ' '
+  LastChance:
+    Used-Message:
+      - ' '
+      - '&aSuccessfully used the &4LastChance&a you have no enderpearl cooldown now&a.'
+      - ' '
+  Pocketbard:
+    Used-Message:
+      - ' '
+      - '&c&aYou have used bard buff &4%effect%&a.'
+      - ' '
+  PoisonBow:
+    Message-Damager:
+      - '&fYou have hit &a%player%&f with a poison bow, they now have poison for 5 seconds.'
+    Message-Damaged:
+      - '&fYou have been hit by &a%player%''s&f poison bow, you now have poison for 5 seconds.'
+  SageWall:
+    Used-Message:
+      - ' '
+      - '&aSuccessfully used the &aSageWall&a.'
+      - ' '
+  Switcher:
+    Been-Hit-Message:
+      Enabled: true
+      Message:
+        - ' '
+        - '&cYou have been hit with a &4Switcher&c.'
+        - '&cYou have switched positions with &4%player%&c.'
+        - ' '
+    Hit-Someone-Message:
+      Enabled: true
+      Message:
+        - ' '
+        - '&aSuccessfully used the &4Switcher&a.'
+        - '&aYou have swapped positions with &4%player%&a.'
+        - ' '
+    Out-Of-Range:
+      - '&cThat play was out of range.'
+
+  TimeWarp:
+    Used-Message:
+      - '&aSuccessfully used your timewarp you will be teleported to your last enderpearl location in 3 seconds.'
+  TPBow:
+    Teleporting-Message-Damager:
+      - '&eYou will be teleported to &4%player%&e in 3 seconds.'
+    Teleporting-Message-Damaged:
+      - '&4%player%&e will be teleported to you in 3 seconds.'
+
+Pocketbard:
+  Strength:
+    Name: '&4Strength II'
+    Lore:
+      - '&7Right-Click this item to give your'
+      - '&7faction and yourself Strength II.'
+    Material: BLAZE_POWDER
+    Data: 0
+    Radius: 20
+    Effect-Power: 2
+    Effect-Time: 6
+  Res:
+    Name: '&bResistance III'
+    Lore:
+      - '&7Right-Click this item to give your'
+      - '&7faction and yourself Resistance III.'
+    Material: IRON_INGOT
+    Data: 0
+    Radius: 20
+    Effect-Power: 3
+    Effect-Time: 6
+  Wither:
+    Name: '&8Wither II'
+    Lore:
+      - '&7Right-Click this item to give your'
+      - '&7enemies and yourself Wither II.'
+    Material: SPIDER_EYE
+    Data: 0
+    Radius: 20
+    Effect-Power: 2
+    Effect-Time: 6
+  Jump:
+    Name: '&aJump VII'
+    Lore:
+      - '&7Right-Click this item to give your'
+      - '&7faction and yourself Jump VII.'
+    Material: FEATHER
+    Data: 0
+    Radius: 20
+    Effect-Power: 7
+    Effect-Time: 6
+  Regen:
+    Name: '&4Regeneration III'
+    Lore:
+      - '&7Right-Click this item to give your'
+      - '&7faction and yourself Regeneration III.'
+    Material: GHAST_TEAR
+    Data: 0
+    Radius: 25
+    Effect-Power: 3
+    Effect-Time: 6
+
+showcase:
+  antibuildstick: true
+  invisibility: true
+  comboability: true
+  guardianangel: true
+  lastchance: true
+  pocketbard: true
+  poisonbow: true
+  sagewall: true
+  switcher: true
+  timewarp: true
+  tpbow: true

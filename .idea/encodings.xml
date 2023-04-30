@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/Archer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/Bard.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/Miner.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/Rogue.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/utils/ArmorClass.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/utils/ArmorClassManager.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/utils/archer/ArcherMark.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/utils/bard/BardData.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/utils/bard/EffectData.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/utils/bard/EffectRestorer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/utils/events/ArmorClassEquipEvent.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/pvpclass/utils/events/ArmorClassUnequipEvent.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aurapvp/bunkers/timer/type/ArcherHandler.java" charset="windows-1252" />
+  </component>
+</project>

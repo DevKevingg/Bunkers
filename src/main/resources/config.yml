@@ -1,0 +1,131 @@
+####################
+DATABASE:
+  AUTH:
+    URI: "mongodb://localhost" # Example URL with password: mongodb://username:password@localhost
+  NAME: "Bunkers"
+  COLLECTIONS:
+    INFORMATION: "Information"
+    TEAMS: "Teams"
+    PROFILES: "Profiles"
+####################
+
+BARD:
+  ENABLED: true
+  NAME: "Bard"
+  WARMUP-ENABLED: true
+  WARMUP-TIME: 5 #SECONDS
+  BUFF-COOLDOWN: 10 #SECONDS
+  TEAMMATE_NEARBY_RADIUS: 25 #BLOCKS
+  MAX-ENERGY: 120
+  EQUIPMENT:
+    HELMET: GOLD_HELMET
+    CHESTPLATE: GOLD_CHESTPLATE
+    LEGGINGS: GOLD_LEGGINGS
+    BOOTS: GOLD_BOOTS
+  ENERGY:
+    SATURATION:
+      ENABLED: true
+      ITEM: "WHEAT"
+      HOLDEABLE:
+        AMPLIFIER-DURATION: 100
+        AMPLIFIER: 0
+      CLICKABLE:
+        COST: 15
+        AMPLIFIER-DURATION: 120
+        AMPLIFIER: 2
+    SPEED:
+      ENABLED: true
+      ITEM: "SUGAR"
+      HOLDEABLE:
+        AMPLIFIER-DURATION: 100
+        AMPLIFIER: 0
+      CLICKABLE:
+        COST: 25
+        AMPLIFIER-DURATION: 120
+        AMPLIFIER: 1
+    STRENGTH:
+      ENABLED: true
+      ITEM: "BLAZE_POWDER"
+      HOLDEABLE:
+        AMPLIFIER-DURATION: 100
+        AMPLIFIER: 0
+      CLICKABLE:
+        COST: 45
+        AMPLIFIER-DURATION: 120
+        AMPLIFIER: 1
+    RESISTANCE:
+      ENABLED: true
+      ITEM: "IRON_INGOT"
+      HOLDEABLE:
+        AMPLIFIER-DURATION: 100
+        AMPLIFIER: 0
+      CLICKABLE:
+        COST: 30
+        AMPLIFIER-DURATION: 80
+        AMPLIFIER: 2
+    REGENERATION:
+      ENABLED: true
+      ITEM: "GHAST_TEAR"
+      HOLDEABLE:
+        AMPLIFIER-DURATION: 100
+        AMPLIFIER: 0
+      CLICKABLE:
+        COST: 45
+        AMPLIFIER-DURATION: 60
+        AMPLIFIER: 1
+    JUMP:
+      ENABLED: true
+      ITEM: "FEATHER"
+      HOLDEABLE:
+        AMPLIFIER-DURATION: 100
+        AMPLIFIER: 1
+      CLICKABLE:
+        COST: 30
+        AMPLIFIER-DURATION: 240
+        AMPLIFIER: 6
+    WITHER:
+      ENABLED: true
+      ITEM: "SPIDER_EYE"
+      CLICKABLE:
+        COST: 50
+        AMPLIFIER-DURATION: 100
+        AMPLIFIER: 1
+    FIRE_RESISTANCE:
+      ENABLED: true
+      ITEM: "MAGMA_CREAM"
+      HOLDEABLE:
+        AMPLIFIER-DURATION: 120
+        AMPLIFIER: 0
+      CLICKABLE:
+        COST: 20
+        AMPLIFIER-DURATION: 900
+        AMPLIFIER: 0
+    INVISIBILITY:
+      ENABLED: true
+      ITEM: "INK_SACK"
+      HOLDEABLE:
+        AMPLIFIER-DURATION: 120
+        AMPLIFIER: 0
+      CLICKABLE:
+        COST: 20
+        AMPLIFIER-DURATION: 900
+        AMPLIFIER: 0
+
+MINER:
+  ENABLED: true
+  NAME: "Miner"
+  WARMUP-ENABLED: true
+  WARMUP-TIME: 5 #SECONDS
+  INVIS-Y-LEVEL: 20
+
+ROGUE:
+  ENABLED: true
+  NAME: "Rogue"
+  WARMUP-ENABLED: true
+  WARMUP-TIME: 5 #SECONDS
+  SPEED-COOLDOWN: 30 #SECONDS
+  SPEED-LEVEL: 3
+  JUMP-COOLDOWN: 30 #SECONDS
+  JUMP-LEVEL: 7
+
+NUMBER: 1

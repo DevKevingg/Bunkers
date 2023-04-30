@@ -1,0 +1,5 @@
+name: Bunkers
+main: com.aurapvp.bunkers.Bunkers
+version: 0.1
+commands:
+  pay:
