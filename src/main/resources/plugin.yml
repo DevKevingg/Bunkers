@@ -1,5 +1,6 @@
 name: Bunkers
 main: com.aurapvp.bunkers.Bunkers
 version: 0.1
+author: DevKevin
 commands:
   pay:
